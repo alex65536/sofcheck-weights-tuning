@@ -14,7 +14,7 @@ utility from it. All the data is `bzip2`-compressed to take less disk space.
 
 The datasets are as follows:
 
-- `stockfish20k.txt.bzip2` contains 20000 games played by [Stockfish][5] against itself on short
+- `stockfish20k.txt.bzip2` contains 20000 games played by [Stockfish][5] 13 against itself on short
 time control (~100ms).
 
 More datasets may be available later.

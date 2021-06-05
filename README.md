@@ -13,10 +13,16 @@ CSV with coefficients from these datasets, you need to build SoFCheck and use th
 utility from it. All the data is `bzip2`-compressed to take less disk space.
 
 The datasets are as follows:
+
 - `stockfish20k.txt.bzip2` contains 20000 games played by [Stockfish][5] against itself on short
 time control (~100ms).
 
 More datasets may be available later.
+
+## Notebooks
+
+Jupyter notebooks, which we used to train SoFCheck, are also lacated in this repository. Note that
+the results may be not completely reproducible because of randomness.
 
 [1]: https://github.com/alex65536/sofcheck
 [2]: https://habr.com/ru/post/305604/

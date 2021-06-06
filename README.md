@@ -14,9 +14,9 @@ utility from it. All the data is `bzip2`-compressed to take less disk space.
 
 The datasets are as follows:
 
-- `stockfish_20k.txt.bzip2` contains 20000 games played by [Stockfish][5] 13 against itself on short
+- `stockfish_20k.txt.bz2` contains 20000 games played by [Stockfish][5] 13 against itself on short
 time control (~100ms).
-- `sofcheck1_30k.txt.bzip2` contains 30000 games played between SoFCheck commit [`1c75e30`][6] (call
+- `sofcheck1_30k.txt.bz2` contains 30000 games played between SoFCheck commit [`1c75e30`][6] (call
 it _v1_) and SoFCheck commmit [`0a52f13`][7] (call it _v2_). 10000 games were played v1 against v1,
 10000 games were played v1 against v2 and 10000 games were played v2 against v2.
 

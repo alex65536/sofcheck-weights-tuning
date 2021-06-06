@@ -14,8 +14,11 @@ utility from it. All the data is `bzip2`-compressed to take less disk space.
 
 The datasets are as follows:
 
-- `stockfish20k.txt.bzip2` contains 20000 games played by [Stockfish][5] 13 against itself on short
+- `stockfish_20k.txt.bzip2` contains 20000 games played by [Stockfish][5] 13 against itself on short
 time control (~100ms).
+- `sofcheck1_30k.txt.bzip2` contains 30000 games played between SoFCheck commit [`1c75e30`][6] (call
+it _v1_) and SoFCheck commmit [`0a52f13`][7] (call it _v2_). 10000 games were played v1 against v1,
+10000 games were played v1 against v2 and 10000 games were played v2 against v2.
 
 More datasets may be available later.
 
@@ -29,3 +32,5 @@ the results may be not completely reproducible because of randomness.
 [3]: https://www.chessprogramming.org/Texel%27s_Tuning_Method
 [4]: https://github.com/alex65536/sofcheck-engine-tester/tree/master/battlefield
 [5]: https://stockfishchess.org
+[6]: https://github.com/alex65536/sofcheck/tree/1c75e3088d146f12186b31cfece738db63b7857e
+[7]: https://github.com/alex65536/sofcheck/tree/0a52f1392d124d912da1fb16a27526e2412c5c27

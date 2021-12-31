@@ -14,11 +14,15 @@ extract CSV with coefficients from these datasets, you need to build SoFCheck an
 
 The datasets are as follows:
 
-- `stockfish_20k.sgs.xz` contains 20000 games played by [Stockfish][5] 13 against itself on short
+- `stockfish_20k.sgs.xz` contains 20'000 games played by [Stockfish][5] 13 against itself on short
 time control (~100ms).
-- `sofcheck1_30k.sgs.xz` contains 30000 games played between SoFCheck commit [`1c75e30`][6] (call
-it _v1_) and SoFCheck commmit [`0a52f13`][7] (call it _v2_). 10000 games were played v1 against v1,
-10000 games were played v1 against v2 and 10000 games were played v2 against v2.
+- `sofcheck1_30k.sgs.xz` contains 30'000 games played between SoFCheck commit [`1c75e30`][6] (call
+it _v1_) and SoFCheck commmit [`0a52f13`][7] (call it _v2_). 10'000 games were played v1 against
+v1, 10'000 games were played v1 against v2 and 10'000 games were played v2 against v2.
+- `sofcheck2_100k.sgs.xz` contains 100'000 games between SoFChecks from commits [`faebcce`][9],
+[`d4ded36`][10], [`f8ce5cc`][11] and [`6bc597b`][12]. There are ten unordered pairs possible
+between these engines (including games with itself), and each pair played 10'000 games against each
+other.
 
 More datasets may be available later.
 
@@ -35,3 +39,7 @@ the results may be not completely reproducible because of randomness.
 [6]: https://github.com/alex65536/sofcheck/tree/1c75e3088d146f12186b31cfece738db63b7857e
 [7]: https://github.com/alex65536/sofcheck/tree/0a52f1392d124d912da1fb16a27526e2412c5c27
 [8]: https://github.com/alex65536/sofcheck/blob/master/docs/gameset.md
+[9]: https://github.com/alex65536/sofcheck/commit/faebcce573ffc15b881edd996d7da266e524ac2f
+[10]: https://github.com/alex65536/sofcheck/commit/d4ded36f0b974a9a679c4dae40e494ce52218c2f
+[11]: https://github.com/alex65536/sofcheck/commit/f8ce5cce56b0800752df4f6483a8d158d93ce790
+[12]: https://github.com/alex65536/sofcheck/commit/6bc597b874cf363821493ef1c4d623300f63cf76

@@ -23,6 +23,9 @@ v1, 10'000 games were played v1 against v2 and 10'000 games were played v2 again
 [`d4ded36`][10], [`f8ce5cc`][11] and [`6bc597b`][12]. There are ten unordered pairs possible
 between these engines (including games with itself), and each pair played 10'000 games against each
 other.
+- `sofcheck3_40k.sgs.xz` contains 40'000 games between SoFChecks from commits [`e498bab`][13] and
+[`a7df920`][14]. Each of the engines played 10'000 games with itself and 20'000 games with the other
+engine.
 
 More datasets may be available later.
 
@@ -43,3 +46,5 @@ the results may be not completely reproducible because of randomness.
 [10]: https://github.com/alex65536/sofcheck/commit/d4ded36f0b974a9a679c4dae40e494ce52218c2f
 [11]: https://github.com/alex65536/sofcheck/commit/f8ce5cce56b0800752df4f6483a8d158d93ce790
 [12]: https://github.com/alex65536/sofcheck/commit/6bc597b874cf363821493ef1c4d623300f63cf76
+[13]: https://github.com/alex65536/sofcheck/commit/e498bab1102e093516a0b512b897535d479397d9
+[14]: https://github.com/alex65536/sofcheck/commit/a7df920b248c5209f85e50dc10e0c3019a22f85d
